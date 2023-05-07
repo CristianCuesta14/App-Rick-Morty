@@ -1,0 +1,14 @@
+.nav {
+  background-color: #222; /* Definimos el color de fondo de la navbar */
+  color: #fff; /* Definimos el color de texto de la navbar */
+  font-size: 18px; /* Definimos el tamaño de fuente de la navbar */
+  height: 60px; /* Definimos la altura de la navbar */
+  position: fixed; /* Definimos la posición fija de la navbar */
+  top: 0; /* Definimos la posición superior de la navbar */
+  width: 100%; /* Definimos el ancho de la navbar */
+  z-index: 100; /* Definimos el índice z para que la navbar se muestre por encima de otros elementos */
+}
+
+.container {
+  display: flex; /* Definimos la visualización de los elementos del contenedor como flex */
+}
