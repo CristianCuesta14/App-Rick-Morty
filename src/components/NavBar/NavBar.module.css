@@ -1,0 +1,72 @@
+
+.navBar {
+  display: flex;
+  justify-content:right;
+  padding: 1rem;
+  border-radius: 10px;
+}
+/*estilos del input*/
+.inputAdd {
+  padding: 10px;
+  border: solid 2px #000000;
+  border-radius:  10px;
+  background-color: #0c0c0c00;
+  color: #ffffff;
+  margin-right: 10px;
+  text-align: center;
+  width: 200px;
+  font-weight: bold;
+}
+.inputAdd:focus {
+  outline: none;
+  box-shadow: 0 0 5px #932ded, 0 0 10px #23f507, 0 0 10px #b007f8,
+  0 0 40px #ff00e6;
+}
+
+/*btn agregar*/
+.btnAddNav  {
+  padding: 10px 20px;
+  border: solid 0.2px #000000;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.btnAddNav:hover {
+  box-shadow: 0 0 5px #932ded, 0 0 10px #23f507, 0 0 10px #b007f8,
+  0 0 40px #ff00e6;
+}
+.btnAbout {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.btnHome {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: blue;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 576px) {
+  .inputAdd {
+    width: fit-content;
+    width: 70%;
+  }
+}
+
+
+
